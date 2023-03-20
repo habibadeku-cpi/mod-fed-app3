@@ -12,3 +12,6 @@ export const unmount = parentElementId => {
   }
   ReactDOM.unmountComponentAtNode(document.getElementById(parentElementId));
 }
+
+export const appName = 'remote-app3';
+

@@ -17,12 +17,12 @@ const App = () => (
     <LocalButton /> */}
     {/* <NavBar></NavBar> */}
     <ErrorBoundary>
-    <BrowserRouter basename="/remote2">
+    <BrowserRouter>
       <NavBar></NavBar>
       <Routes>
-        <Route path="/" element={<RemoteHome/>} />
-        <Route path="/people" element={<People />} />
-        <Route path="/spaces" element={<Spaces />} />
+        <Route path="/remote2" element={<RemoteHome/>} />
+        <Route path="/remote2/people" element={<People />} />
+        <Route path="/remote2/spaces" element={<Spaces />} />
       </Routes>
     </BrowserRouter>
     </ErrorBoundary> 
